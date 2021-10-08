@@ -1,0 +1,11 @@
+{
+    "ignore": ["**/*.test.ts", "**/*.spec.ts", ".git", "node_modules"],
+    "watch": ["src"],
+    "exec": "npm run debug",
+    "ext": "ts",
+    "verbose": true,
+    "env": {
+      "PORT": 3000,
+      "DATABASE_PATH": "database.db"
+    }
+  }
